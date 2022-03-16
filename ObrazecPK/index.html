@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Rezervacije</title>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="swal.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+<body><img src="burger.png" width="600" height="600" style="float:right;margin-left:10em" >
+
+<body style="background-color:#28282B">
+
+	<div class="container">
+		<div class="container-time">
+				<h2 class="heading">Odprto</h2>
+				<h3 class="heading-days">Ponedeljek-petek</h3>
+				<p>7.00 zjutraj - 11.00 zjutraj (zajtrk)</p>
+				<p>11.00 zjutraj - 10.00 zvečer (kosilo/večerja)</p>
+
+				<h3 class="heading-days">Sobota in nedelja</h3>
+				<p>9.00 zjutraj - 13.00 (zajtrk)</p>
+				<p>13.00 - 10.00 zvečer (kosilo/večerja)</p>
+
+				<hr>
+
+				<h4 class="heading-phone">Pokličite nas na: 031812447 </h4>
+		</div>
+
+		<div class="container-form">
+				<form action="#">
+					<h2 class="heading heading-yellow">Rezerviraj si svojo mizo</h2>
+
+					<div class="form-field">
+						<p>Vaše ime</p>
+						<input type="text" placeholder=""required>
+					</div>
+					<div class="form-field">
+						<p>Vaš e-naslov</p>
+						<input type="email" placeholder=""required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$">
+					</div>
+					<div class="form-field">
+						<p>Datum</p>
+						<input type="date"required>
+					</div>
+					<div class="form-field">
+						<p>Čas prihoda</p>
+						<input type="time"required>
+					</div>
+					<div class="form-field">
+						<p>Koliko oseb?</p>
+						<select name="select" id="#"required>
+							<option value="1">1 oseba</option>
+							<option value="2">2 osebi</option>
+							<option value="3">3 osebe</option>
+							<option value="4">4 osebe</option>
+							<option value="5">5 oseb</option>
+							<option value="5+">5+ oseb</option>
+						</select>
+					</div>
+
+					<button class="btn">Rezerviraj!</button>
+				</form>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
